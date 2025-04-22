@@ -1,0 +1,46 @@
+{
+    "name": "Your Portfolio",
+    "short_name": "Portfolio",
+    "description": "Professional portfolio showcasing full-stack development projects and skills",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4a90e2",
+    "icons": [
+        {
+            "src": "images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "orientation": "any",
+    "categories": ["portfolio", "web development"],
+    "screenshots": [
+        {
+            "src": "images/screenshot1.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "platform": "wide",
+            "label": "Homepage of Your Portfolio"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Projects",
+            "url": "/#projects",
+            "description": "View my projects"
+        },
+        {
+            "name": "Contact",
+            "url": "/#contact",
+            "description": "Get in touch"
+        }
+    ]
+} 

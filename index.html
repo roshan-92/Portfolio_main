@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing full-stack development projects and skills">
+    <meta name="keywords" content="portfolio, web developer, full stack developer, frontend, backend">
+    <meta name="author" content="Roshan Kumar">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Roshan Kumar - Full Stack Developer">
+    <meta property="og:description" content="Professional portfolio showcasing full-stack development projects and skills">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-portfolio-url.com">
+    <meta property="og:image" content="images/og-image.jpg">
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4a90e2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    
+    <title>Roshan Kumar - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Roshan Kumar",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://your-portfolio-url.com",
+        "sameAs": [
+            "https://github.com/yourusername",
+            "https://linkedin.com/in/yourusername",
+            "https://twitter.com/yourusername"
+        ],
+        "image": "images/bgr.png",
+        "description": "Professional full-stack developer specializing in modern web applications",
+        "knowsAbout": ["Web Development", "JavaScript", "React", "Node.js", "Python", "MongoDB"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-logo" role="banner">Portfolio</div>
+            <div class="nav-links" role="menubar">
+                <a href="#home" class="active" role="menuitem">Home</a>
+                <a href="#about" role="menuitem">About</a>
+                <a href="#projects" role="menuitem">Projects</a>
+                <a href="#skills" role="menuitem">Skills</a>
+                <a href="#contact" role="menuitem">Contact</a>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                <div class="menu-btn__burger"></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" role="region" aria-label="Introduction">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1 data-text="Hi, I'm Roshan Kumar">Hi, I'm <span class="highlight">Roshan Kumar</span></h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>I create beautiful and functional websites with modern technologies</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary" role="button">View My Work</a>
+                        <a href="#contact" class="btn secondary" role="button">Contact Me</a>
+                    </div>
+                    <div class="social-links" role="list">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/bgr.png" alt="Roshan Kumar" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/bgr.png" alt="Roshan Kumar">
+                    </div>
+                    <div class="about-text">
+                        <h3>Let me introduce myself</h3>
+                        <p>I'm a passionate Full Stack Developer with expertise in creating modern web applications. With a strong foundation in both frontend and backend technologies, I bring ideas to life through clean and efficient code.</p>
+                        <div class="about-details">
+                            <div class="detail">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Computer Science Graduate</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-briefcase"></i>
+                                <span>3 Years Experience</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-code"></i>
+                                <span>50+ Projects Completed</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn primary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects" role="region" aria-label="Projects">
+            <div class="container" data-aos="fade-up">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-filters" role="tablist" aria-label="Project filters">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+                    <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web</button>
+                    <button class="filter-btn" data-filter="app" role="tab" aria-selected="false">App</button>
+                    <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Design</button>
+                </div>
+                <div class="projects-grid" role="tabpanel">
+                    <!-- Project Card 1 -->
+                    <article class="project-card" data-categories="web" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="E-commerce Website Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><i class="fas fa-link" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="View Source Code"><i class="fab fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Website</h3>
+                            <p>A full-featured online shopping platform</p>
+                            <div class="project-tech" role="list" aria-label="Technologies used">
+                                <span role="listitem">React</span>
+                                <span role="listitem">Node.js</span>
+                                <span role="listitem">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card" data-categories="app" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="Project 2 Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><i class="fas fa-link" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="View Source Code"><i class="fab fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Manager App</h3>
+                            <p>A productivity app for task management</p>
+                            <div class="project-tech" role="list" aria-label="Technologies used">
+                                <span role="listitem">Vue.js</span>
+                                <span role="listitem">Firebase</span>
+                                <span role="listitem">CSS3</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card" data-categories="design" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="Project 3 Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><i class="fas fa-link" aria-hidden="true"></i></a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="View Source Code"><i class="fab fa-github" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Design</h3>
+                            <p>Modern portfolio website template</p>
+                            <div class="project-tech" role="list" aria-label="Technologies used">
+                                <span role="listitem">HTML5</span>
+                                <span role="listitem">CSS3</span>
+                                <span role="listitem">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container" data-aos="fade-up">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-content">
+                    <div class="skills-category">
+                        <h3>Frontend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5/CSS3</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Backend Development</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>82%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 82%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>MongoDB</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" role="region" aria-label="Contact">
+            <div class="container" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info" role="list">
+                        <div class="contact-item" role="listitem">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:your.email@example.com">cuteroshan7858@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item" role="listitem">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:+1234567890">+91 9262845810</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item" role="listitem">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Patna, Bihar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <input type="hidden" name="csrf_token" id="csrfToken">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Roshan Kumar's Portfolio</h3>
+                    <p>Creating digital experiences that matter</p>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-social" role="list" aria-label="Social media links">
+                    <a href="https://github.com/roshan-92/" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="GitHub Profile">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/roshan-kumar-46a000263/" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Facebook Profile">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_iamroshan_01/?next=%2F" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Instagram Profile">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> Roshan Kumar's Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
